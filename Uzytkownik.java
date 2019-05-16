@@ -8,28 +8,28 @@ import java.util.List;
 
 public class Uzytkownik {
 
-    List<Przedmiot> zebraneArtykuły;
+    List<Przedmiot> zebraneArtykuly;
 
     public Uzytkownik() {
-        zebraneArtykuły = new ArrayList<>();
+        zebraneArtykuly = new ArrayList<>();
 
     }
 
-    public List<Przedmiot> getZebraneArtykuły() {
-        return zebraneArtykuły;
+    public List<Przedmiot> getZebraneArtykuly() {
+        return zebraneArtykuly;
     }
 
-    public void setZebraneArtykuły(List<Przedmiot> zebraneArtykuły) {
-        this.zebraneArtykuły = zebraneArtykuły;
+    public void setZebraneArtykuly(List<Przedmiot> zebraneArtykuly) {
+        this.zebraneArtykuly = zebraneArtykuły;
     }
 
     public void dodajPrzedmiot(Przedmiot przedmiot) {
-        getZebraneArtykuły().add(przedmiot);
+        getZebraneArtykuly().add(przedmiot);
     }
 
     @Override
     public String toString() {
-        return "Twoje artykuły" + zebraneArtykuły;
+        return "Twoje artykuły" + zebraneArtykuly;
     }
 }
 
