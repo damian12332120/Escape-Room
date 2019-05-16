@@ -27,13 +27,11 @@ public class Kontloler {
     public Pokoj pokojPierwszy() {
         List<Mebel> listaMebli = meblePierwszegoPokoju();
         return pierwszyPokoj(listaMebli);
-
     }
 
     public Pokoj pokojDrugi() {
         List<Mebel> listaMebli = mebleDrugiegoPokoju();
         return drugiPokoj(listaMebli);
-
     }
 
     public Pokoj pokojTrzeci() {
