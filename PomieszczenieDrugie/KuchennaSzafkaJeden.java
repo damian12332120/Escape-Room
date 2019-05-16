@@ -12,7 +12,6 @@ public class KuchennaSzafkaJeden extends Mebel {
         super(nazwa, przedmioty, uzytkownik);
     }
 
-
     @Override
     public void reakcja() {
         opis();
@@ -65,7 +64,6 @@ public class KuchennaSzafkaJeden extends Mebel {
             System.out.println("Gratuluje znalazłeś klucz!");
             zbierzPrzedmiot();
             setCzyJuzByl(true);
-
         } else {
             System.out.println("W przyprawie juz wiecej nic nie ma");
         }
