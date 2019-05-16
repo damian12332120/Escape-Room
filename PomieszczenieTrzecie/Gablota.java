@@ -1,5 +1,4 @@
 package escapeRoom.PomieszczenieTrzecie;
-
 import escapeRoom.ObiektyDziedziczone.Kontynet;
 import escapeRoom.ObiektyDziedziczone.Mebel;
 import escapeRoom.ObiektyDziedziczone.Przedmiot;
@@ -21,7 +20,6 @@ public class Gablota extends Mebel {
         if (czyPrzyczepil && czyPrzyczepil2) {
             wlaczKolowrotek();
         }
-
     }
 
     @Override
